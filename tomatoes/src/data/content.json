@@ -1,0 +1,116 @@
+{
+
+    "nutritionalValues":{
+        "title":"Red tomatoes, raw",
+        "subtitle":"Nutritional value per 100 g (3.5 oz)",
+        "values":[
+            {
+                "title":"Carbohydrates",
+                "value":"3.9 g",
+                "subvalues":[
+                    {
+                        "title":"- Sugars",
+                        "value":"2.6 g"
+                    },
+                    {
+                        "title":"- Dietary fiber",
+                        "value":"1.2 g"
+                    }
+                 
+                ]
+
+            },
+            {
+                "title":"Fat",
+                "value":"0.2 g"
+            },
+            {
+                "title":"Protein",
+                "value":"0.9 g"
+            },
+            {
+                "title":"Water",
+                "value":"94.5 g"
+            },
+            {
+                "title":"Vitamin A equiv",
+                "value":"42 μg (5%)",
+                "subvalues":[
+                    {
+                        "title":"- lutein and zeaxanthin",
+                        "value":"123 μg"
+                    }
+                 
+                ]
+
+            },
+            {
+                "title":"Vitamin C",
+                "value":"14 mg (17%)"
+            },
+            {
+                "title":"Vitamin E",
+                "value":"0.54 mg (4%)"
+            },
+            {
+                "title":"Vitamin E",
+                "value":"0.54 mg (4%)"
+            },
+            {
+                "title":"Potassium",
+                "value":"237 mg (5%)"
+            }
+           
+        ]
+    },
+
+    "varieties":{
+        "title":"Varieties",
+        "content":"<p>There are around 7500 tomato varieties grown for various purposes. Heirloom tomatoes are becoming increasingly popular, particularly among home gardeners and organic producers, since they tend to produce more interesting and flavorful crops at the cost of disease resistance and productivity. In 1973, Israeli scientists developed the world's first long shelf-life commercial tomato varieties.</><p>Tomato varieties are roughly divided into several categories, based mostly on shape and size.</p>",
+        "listTomatoes":[
+            {
+                "image":"globe-tomato.png",
+                "title":"'Slicing'/'globe' tomatoes"
+            },
+            {
+                "image":"beefsteak-tomato.jpeg",
+                "title":"Beefsteak tomatoes"
+            },
+            {
+                "image":"oxheart-tomato.jpeg",
+                "title":"Oxheart tomatoes"
+            },
+            {
+                "image":"plum-tomato.jpeg",
+                "title":"Plum tomatoes"
+            },
+            {
+                "image":"pear-tomato.jpeg",
+                "title":"Pear tomatoes"
+            },
+            {
+                "image":"cherry-tomato.jpeg",
+                "title":"Cherry tomatoes"
+            },
+            {
+                "image":"grape-tomato.png",
+                "title":"Grape tomatoes"
+            },
+            {
+                "image":"campari-tomato.jpeg",
+                "title":"Campari tomatoes"
+            }
+        ]
+    },
+
+    "newsletter": {
+        "title": "Keep up to date on the tomato ",
+        "description": "Enter your name and email address below to receive weekly updates on the status of the tomato"
+    },
+
+    "footer": {
+        "text": "Copyright © 2020 BBC. The BBC is not responsible for the content of external sites. ",
+        "link": "https://www.bbc.co.uk/help/web/links/"
+    }
+
+}
