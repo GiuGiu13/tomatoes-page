@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+section{
+    height: auto;
+    padding: 1rem;
+
+    @media screen and(min-width:$screen-lg){
+      height: 100vh;
+      padding: 4rem;
+    }
+
+    @media screen and(min-width:$screen-xl){
+      padding: 6rem;
+    }
+    
+}

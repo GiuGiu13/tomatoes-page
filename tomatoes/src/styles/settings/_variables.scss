@@ -1,0 +1,101 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/grid";
+
+
+// Colours
+$richBlack: #0D1821;
+$mintCream: #F7FFF7;
+$red:#EC2D01;
+$greenPantone:#53A548;
+$vividTangerine:#ffa089;
+
+$greenPantoneLight:rgba(83, 165, 72, 0.4);
+
+
+// Colour Roles
+$primary-color: $richBlack;
+$secondary-color: $red;
+$tertiary-color: $greenPantone;
+$quaternary-color: $mintCream;
+$quinary-color: $vividTangerine;
+
+
+// Screen Sizes
+$screen-xl: map-get($grid-breakpoints, xl); // ~1200px
+$screen-lg: map-get($grid-breakpoints, lg); // ~992px
+$screen-md: map-get($grid-breakpoints, md); // ~768px
+$screen-sm: map-get($grid-breakpoints, sm); // ~576px
+$screen-xs: map-get($grid-breakpoints, xs); // 0
+
+// Screen Sizes Max
+$screen-xl-max: $screen-xl - 1;
+$screen-lg-max: $screen-lg - 1;
+$screen-md-max: $screen-md - 1;
+$screen-sm-max: $screen-sm - 1;
+
+// Sizes
+
+$font-size-base: 1.6rem;
+$font-size-h1: 10rem; // 132px
+$font-size-h2: 6rem; // 36px
+$font-size-h3: 4.6rem; // 30px
+$font-size-h4: 3rem; // 30px
+$font-size-h5: 2rem; // 20px
+$font-size-h6: 1.8rem; // 18px
+$font-size-h7: 1.4rem; // 14px
+$font-size-xs: 1rem; //10px
+$font-size-xl:1.6vw;
+
+
+// Letter spacings
+$font-size-h1-word-spacing: 6rem;
+$font-size-h4-letter-spacing: .1rem;
+$letter-spacing-base:.2rem;
+$letter-spacing-1:.3rem;
+$letter-spacing-2:.4rem;
+$letter-spacing-3:.5rem;
+
+//line height
+$primary-line-height: 1;
+$secondary-line-height: 1.2;
+$tertiary-line-height: 1.3;
+$quaternary-line-height: 1.6;
+$quinary-line-height: 1.1;
+$line-height-base: 1.8;
+
+
+// Fonts
+$font-lato: 'Lato', sans-serif;
+$font-mutka: 'Mukta', sans-serif;
+$font-palanquin: 'Palanquin', sans-serif;
+
+$weight-extra-light: 100;
+$weight-light: 300;
+$weight-normal: 400;
+$weight-bold: 600;
+$weight-extra-bold: 800;
+
+$primary-font-family:$font-palanquin;
+$primary-font-size: $font-size-base;
+$primary-weight: $weight-normal;
+$primary-letter-spacing: -0.1rem;
+$primary-word-spacing:  -0.3rem; 
+
+$secondary-font-family: $font-lato;
+$secondary-font-size: $font-size-base;
+$secondary-weight: $weight-normal;
+$secondary-letter-spacing: 0rem;
+$secondary-word-spacing:  0rem;
+
+$tertiary-font-family: $font-mutka;
+$tertiary-font-size: $font-size-base;
+$tertiary-weight:$weight-light;
+$tertiary-letter-spacing: 0rem;
+$tertiary-word-spacing:  0rem;
+
+
+
+
+
