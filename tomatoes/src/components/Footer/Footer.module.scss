@@ -1,0 +1,24 @@
+@import '../../styles/settings/variables';
+
+.Footer {
+
+    &__newsletterContainer {
+        padding: 1rem;
+
+        @media screen and(min-width:$screen-lg){
+            padding: 6rem;
+        }
+    }
+
+    &__copyright {
+        background-color: $quaternary-color;
+        padding: 1.5rem;
+        p{
+            font-weight: $weight-bold;
+        }
+
+        @media screen and(min-width:$screen-lg){
+            padding: 3rem;
+        }
+    }
+}

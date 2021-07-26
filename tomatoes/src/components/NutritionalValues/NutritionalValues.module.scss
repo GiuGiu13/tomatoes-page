@@ -1,0 +1,131 @@
+@import '../../styles/settings/variables';
+@import '../../styles/base/base';
+
+
+.NutritionalValues{
+    background: $greenPantoneLight;
+    padding: 0;
+    position: relative;
+    @media screen and(min-width:$screen-lg){
+        padding: 3rem;
+    }
+    &__titleSection{
+        text-align: left;
+        padding-left: 0;
+        padding-top: 1.5rem;
+        position: relative;
+
+        @media screen and(min-width:$screen-lg){
+            padding-top: 3rem;
+            padding-left: 10%;
+        }
+ 
+    }
+
+    &__divider{
+        background-color:$tertiary-color;
+        height: 5px;
+        width: 10%;
+        margin-left: 0;
+        margin-top: 0.5rem;
+        @media screen and(min-width:$screen-lg){
+            margin-left: 10%;
+            margin-top: 1.5rem;
+        }
+    }
+    &__contentContainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+                flex-direction: column;
+        position: relative;
+        top:0;
+        padding-top: 3rem;
+
+        @media screen and(min-width:$screen-lg){
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding-top: 0;
+        }
+    }
+
+    &__contentTitle{
+        color:$quaternary-color;
+        padding-bottom: 1rem;
+    }
+
+    &__tableContainer{
+        background: $quaternary-color;
+        margin: 3rem auto;
+    }
+    &__rowTitle{
+        padding: 0.5rem 0;
+        @media screen and(min-width:$screen-lg){
+            padding: 3rem 0;
+        }
+    }
+    &__rowTitleLeft{
+        border-right: 1.5px solid $greenPantoneLight;
+        border-left: 1.5px  solid $greenPantoneLight;
+        border-bottom: 3px solid $greenPantoneLight;
+    }
+    &__rowTitleRight{
+        border-right: 1.5px solid $greenPantoneLight;
+        border-left: 1.5px  solid $greenPantoneLight;
+        border-bottom: 3px solid $greenPantoneLight;
+    }
+    &__namesColumn{
+        text-align: right;
+
+        border-right: 1.5px solid $greenPantoneLight;
+        border-left: 1.5px  solid $greenPantoneLight;
+    }
+    &__valuesColumn{
+        text-align: left;
+ 
+        border-right: 1.5px  solid $greenPantoneLight;
+        border-left: 1.5px  solid $greenPantoneLight;
+    }
+ 
+    &__tableListItem{
+        border-bottom: 3px solid $greenPantoneLight;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding:1rem 1.5rem;
+        min-height: 115px;
+        @media screen and(min-width:$screen-sm){
+            min-height: 120px;
+        }
+
+        @media screen and(min-width:$screen-md){
+            min-height: 80px;
+        }
+        
+        @media screen and(min-width:$screen-lg){
+            min-height: auto;
+        }
+    }
+    &__tableListItemTitle{
+        @media screen and(min-width:$screen-md){
+            font-size: $font-size-xl - 2;
+            font-size: $font-size-h5;
+        }
+        @media screen and(min-width:$screen-lg){
+            font-size: $font-size-xl;
+        }
+        
+    }
+    &__subvalues{
+        @media screen and(min-width:$screen-md){
+            font-size: $font-size-h5 - 0.5;
+        }
+        @media screen and(min-width:$screen-lg){
+            font-size:  $font-size-xl - 0.3;
+        }
+    }
+}

@@ -1,0 +1,91 @@
+@import '../../styles/settings/variables';
+
+.Newsletter {
+    &__header {
+        padding: 1.5rem 0;
+        margin-bottom: 1rem;
+
+        @media screen and (min-width:$screen-lg){
+            margin-bottom: 3rem;
+        }
+
+        p {
+            padding-top: 1.5rem;
+        }
+    }
+    &__registerFromContainer{
+        padding: 1.5rem;
+        background-color: $quinary-color;
+
+        @media screen and (min-width:$screen-lg){
+            padding: 3rem;
+        }
+    }
+
+    &__registerForm {
+        position: relative;
+        padding-top: 1.5rem;
+
+        @media screen and (min-width:$screen-lg){
+            padding: 3rem;
+        }
+      
+
+    }
+
+
+    &__formField {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 6px 10px;
+        margin-bottom: 10px;
+        border: none;
+        box-shadow: none;
+        height: 50px;
+        font-size: $font-size-base;
+        font-family: $secondary-font-family;
+
+        &:focus {
+            outline-color: $tertiary-color;
+            border-radius: 0;
+            background-color: $quaternary-color;
+        }
+
+    }
+
+    &__formSubmit{
+        background-color: $tertiary-color;
+        font-family: $secondary-font-family;
+        color: $quaternary-color;
+        text-transform: uppercase;
+        border: 2px solid $tertiary-color;
+        padding: 1.5rem 3rem;
+        font-size: $font-size-h5;
+        -webkit-transition: all 0.4s ease-in-out 0s;
+        -moz-transition: all 0.4s ease-in-out 0s;
+        transition: all 0.4s ease-in-out 0s;
+        &:hover{
+            color: $tertiary-color;
+            background-color: $quaternary-color;
+            border: 2px solid $quaternary-color;
+        }
+    }
+    &__successMessage{
+        h4{
+            color: $quaternary-color;
+        }
+    }
+    &__errorMessage{
+        text-align: left;
+        color: $secondary-color;
+        padding: 1.5rem 0 1rem 0;
+        position: relative;
+        top:0;
+
+        @media screen and(min-width:$screen-lg){
+            position: absolute;
+            top: -15px;
+        }
+    }
+}
