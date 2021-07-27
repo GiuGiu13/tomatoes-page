@@ -45,7 +45,7 @@ const Varieties = ({contentVarieties}) => {
                                         />
                                     </div>
                                     <div className={`col-12 col-lg-4 ${classes.Varieties__tomatoesName}`}>
-                                        <h2>{el.title}</h2>
+                                        <h3>{el.title}</h3>
                                     </div>
                                 </div>
                             </div>
